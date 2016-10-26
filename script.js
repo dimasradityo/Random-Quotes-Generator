@@ -4,11 +4,11 @@ $(document).ready(function(){
     $.getJSON(url, function(data){
         var author = data.quoteAuthor;
                 
-                    $('blockquote').html(data.quoteText);
+                    $('blockquote').html('"' +data.quoteText+ '"');
                     if (author == ''){
                         author = 'Unknown';
                     }
-                    $('cite').html(author);                                                  
+                    $('cite').html('-' +author);                                                  
             });
 
     $('#new').on('click', function(){                                
@@ -19,8 +19,10 @@ $(document).ready(function(){
                     if (author == ''){
                         author = 'Unknown';
                     } 
-                    $('cite').html(author);                                                  
+                    $('cite').html('-' +author); 
+                                                             
             });
+            
     });
 });
             
