@@ -2,23 +2,36 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="../../Contents/bootstrap.css">
-    <link rel="stylesheet" href="../../Contents/font-awesome-4.6.3/css/font-awesome.css">
-    <script src="../../Contents/jquery-3.1.1.js"></script>
-    <script src="script.js"></script>
+	<link rel="stylesheet" href="../../Contents/bootstrap.css">
+	<link rel="stylesheet" href="../../Contents/font-awesome-4.6.3/css/font-awesome.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Eczar|Raleway" rel="stylesheet">
+	<script src="../../Contents/jquery-3.1.1.js"></script>
+	<script src="script.js"></script>
 </head>
 
 <body>
-    <div class="container text-center">
-        <h1>Random Quotes Generator</h1>
-        <div class="well well-lg content" id="quote">
-            <blockquote id="quoteText"></blockquote>
-            <cite id="quoteAuthor"></cite>            
-        </div>
-        <button type="submit" id="new" class="btn btn-default">New Quote</button>
-        <button class="btn btn-primary"><i class="fa fa-twitter fa-md" id="twitter"> Tweet this quote</i></button>
-    </div>    
-    
+	<div class="container text-center">
+		<h1>Random Quotes Generator</h1>
+		<div class="well well-lg content" id="quote">
+			<blockquote id="quoteText"></blockquote>
+			<cite id="quoteAuthor"></cite>
+		</div>
+		<div class="buttons">
+			<button type="submit" id="new" class="btn btn-default"><strong>New Quote</strong></button>
+			<a href="https://twitter.com/share"><button id="twitter" class="btn btn-primary"><span class="fa fa-twitter fa-large"></span> Tweet this quote</button></a>
+		</div>
+	</div>
+	<a href="#"></a>
+
+	<div class="container text-center foot">
+		<footer>
+			<p>A <a href="https://www.freecodecamp.com" target="_blank" id="link1">freecodecamp</a> Project.</p>
+			<p>Written and Coded by <a href="http://codepen.io/dimasradityo/" target="_blank" id="link2">Dimas Radityo.</a></p>
+		</footer>
+	</div>
+
+
 </body>
 
 </html>

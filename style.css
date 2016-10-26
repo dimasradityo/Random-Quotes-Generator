@@ -1,3 +1,40 @@
-#twitter{
-    color: white;
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=db83fd3aa6bb3792680fc2c50150a815');
+    background-size: cover;
+    color: ghostwhite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.well{
+    background-color: lightblue;
+    border-color: lightblue;
+    box-shadow: 2px 3px 20px ghostwhite;
+}
+.btn{
+    box-shadow: 2px 3px 5px black;
+}
+#new{
+    background-color: ghostwhite;
+}
+blockquote{
+    font-size: 24px;
+    font-family: 'Eczar', serif;
+    color: black;
+}
+cite{
+    font-size: 16px;    
+    color: black;
+}
+.foot{
+    margin-top: 20%;
+}
+a,a:link,a:visited
+{
+ color:lightcoral;
+ text-decoration:none; 
+}
+a, a:hover{
+    color: ghostwhite;
+    text-decoration: underline;
 }
